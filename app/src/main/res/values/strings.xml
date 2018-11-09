@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">MotherEarth</string>
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- string from binar -->
+
+    <string name="gempa">
+
+        gempa
+    </string>
+
+    <string name="cuaca">
+
+        cuaca
+    </string>
+
+    <string name="berita">
+
+        berita
+    </string>
+
+    <string name="donasi">
+
+        donasi
+    </string>
+
+    <string name="quake_alert">
+
+        quake alert
+    </string>
+
+    <string name="mapbox_access_token">
+        pk.eyJ1IjoiYWZpZmNhbmlhZ28xNyIsImEiOiJjam8wMW8zemcxcDNmM2tuZGt1MHE2ZDlvIn0.kAh4yxavJ9s04uKPROEJTA
+    </string>
+    <string-array name="android_dropdown_arrays">
+        <item>Pilih</item>
+        <item>Yogyakarta</item>
+        <item>Semarang</item>
+        <item>Jakarta</item>
+        <item>Bandung</item>
+        <item>Surabaya</item>
+        <item>Bali</item>
+        <item>Medan</item>
+    </string-array>
+    <string name="instruksi1">
+
+        Fitur ini akan memunculkan POP UP WINDOW hanya disaat\nAnda berada di dalam radius 10 km, terhitung dari titik
+        pusat gempa.\nDan hanya akan muncul disaat gempa berkekuatan lebih dari 5,5 SR.
+    </string>
+    <string name="instruksi2">
+
+        Sentuh tombol LANJUT KE LAYAR NAVIGASI untuk memunculkan \nlayar navigasi.
+    </string>
+    <string name="instruksi3">
+        Di dalam layar ini, Anda akan secara otomatis dibantu untuk keluar dari area bahaya gempa menuju lokasi yang
+        lebih aman.
+    </string>
+    <string name="instruksi4">
+        Layar evakuasi dilengkapi 2 fitur tambahan; TELEPON BASARNAS\ndan BROADCAST LOKASI ke semua kontak Whatsapp.
+    </string>
+    <string name="yahoo">
+        Powered By Yahoo Weather
+    </string>
+
+</resources>

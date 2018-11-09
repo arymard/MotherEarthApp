@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".AdapterGempa"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp">
+
+
+    <android.support.constraint.ConstraintLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/bg_status">
+
+        <TextView
+                android:id="@+id/tempat_gempa"
+                android:text="Tempat Gempa"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/tgl_gempa"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="25dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="19dp"
+                android:textAppearance="@style/lokasi"/>
+
+        <TextView
+                android:id="@+id/tgl_gempa"
+                android:text="Tanggal Gempa"
+                app:layout_constraintTop_toBottomOf="@id/tempat_gempa"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="25dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:textAppearance="@style/tanggal"
+        />
+
+
+
+        <TextView
+                android:id="@+id/sr"
+                android:text="8,1"
+                app:layout_constraintTop_toBottomOf="@+id/tgl_gempa"
+                android:layout_width="60dp"
+                android:layout_height="57dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15dp"
+                android:textAppearance="@style/sr"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="20dp"
+
+        />
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SR"
+                app:layout_constraintLeft_toRightOf="@id/sr"
+                android:layout_marginBottom="23dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:textAppearance="@style/sr2"
+        />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_detail"
+                android:text="Detail"
+                android:background="@drawable/ellipse_button_detail_gempa_merah"
+                app:layout_constraintRight_toRightOf="parent" android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+            android:id="@+id/gempa"
+            android:icon="@drawable/world"
+            android:title="@string/gempa"
+    />
+
+    <item
+            android:id="@+id/cuaca"
+            android:icon="@drawable/awanico"
+            android:title="@string/cuaca"/>
+
+    <item
+            android:id="@+id/berita"
+            android:icon="@drawable/icon_berita"
+            android:title="@string/berita"/>
+
+
+    <item
+            android:id="@+id/quake_alert"
+            android:icon="@drawable/run"
+            android:title="@string/quake_alert"/>
+
+</menu>

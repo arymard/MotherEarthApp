@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="gempaAman">#63D47C</color>
+    <color name="gempaBahaya">#F4C262</color>
+    <color name="gempaWaspada">#F46262</color>
+    <color name="blue">#0066cc</color>
+    <color name="gold">#e6b121</color>
+    <color name="grey">#cccccc</color>
+    <color name="blue_binar">#296C8D</color>
+    <color name="dark_grey">#A9A9A9</color>
+    <color name="black">#000000</color>
+
+</resources>
